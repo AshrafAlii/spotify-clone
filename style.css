@@ -126,3 +126,8 @@ nav ul li{
         background-color: red;
     };
 }
+
+.owner{
+    text-align: right;
+    font-weight: bolder;
+}
