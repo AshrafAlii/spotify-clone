@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - World's best music platform</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About </li>
+        </ul>
+    </nav>
+    <h5 class="owner">Created By - Ashraf Ali</h5>
+
+    <div class="container">
+        <div class="songlist">
+            <h1><b><u>My Playlist - Best songs</u></b></h1>
+            <div class="songItemContainer">
+                <div class="songItems">
+                    <img src="covers/1.jpg"\alt="1">
+                    <span class="songname">Aankhon Se Batana</span>
+                    <span class="songlistplay"><span class="timestamp">03:43<i id ="0" class="far songItemPlay fa-circle-play"></i></span></span>
+                </div>   
+                <div class="songItems">
+                    <img src="covers/2.jpg" alt="2">
+                    <span class="songname">Alag Aasmaan</span>
+                    <span class="songlistplay"><span class="timestamp">03:46<i id ="1" class="far songItemPlay fa-circle-play"></i></span></span>
+                </div>    
+                <div class="songItems">
+                    <img src="covers/3.jpg" alt="3">
+                    <span class="songname">Death Bed</span>
+                    <span class="songlistplay"><span class="timestamp">02:54<i id ="2" class="far songItemPlay fa-circle-play"></i></span></span>
+                </div>    
+                <div class="songItems">
+                    <img src="covers/4.jpg" alt="4">
+                    <span class="songname">Gul</span>
+                    <span class="songlistplay"><span class="timestamp">03:45<i id ="3" class="far songItemPlay fa-circle-play"></i></span></span>
+                </div>    
+                <div class="songItems">
+                    <img src="covers/5.jpg" alt="5">
+                    <span class="songname">Insane</span>
+                    <span class="songlistplay"><span class="timestamp">03:23<i id ="4" class="far songItemPlay fa-circle-play"></i></span></span>
+                </div>    
+                <div class="songItems">
+                    <img src="covers/6.jpeg" alt="6">
+                    <span class="songname">Perfect</span>
+                    <span class="songlistplay"><span class="timestamp">04:45<i id ="5" class="far songItemPlay fa-circle-play"></i></span></span>
+                </div>    
+                <div class="songItems">
+                    <img src="covers/7.jpeg" alt="7">
+                    <span class="songname">Raat- Apricot</span>
+                    <span class="songlistplay"><span class="timestamp">05:04<i id ="6" class="far songItemPlay fa-circle-play"></i></span></span>
+                </div>    
+                <div class="songItems">
+                    <img src="covers/8.jpeg" alt="8">
+                    <span class="songname">Saware</span>
+                    <span class="songlistplay"><span class="timestamp">06:36<i id ="7" class="far songItemPlay fa-circle-play"></i></span></span>
+                </div>    
+                <div class="songItems">
+                    <img src="covers/9.jpg" alt="9">
+                    <span class="songname">Tu Aake Dekh Le</span>
+                    <span class="songlistplay"><span class="timestamp">04:30<i id ="8" class="far songItemPlay fa-circle-play"></i></span></span>
+                </div>    
+                <div class="songItems">
+                    <img src="covers/10.jpeg" alt="10">
+                    <span class="songname">Waqt Ki Baatein</span>
+                    <span class="songlistplay"><span class="timestamp">04:03<i id ="9" class="far songItemPlay fa-circle-play"></i></span></span>
+                </div> 
+            </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="progressbar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fa-solid fa-3x fa-backward-step" id="previous"></i>
+            <i class="fa-solid fa-3x fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-3x fa-forward-step" id="next"></i>  
+        </div>
+        <div class="songinfo">
+            <img src="playing.gif" width="50px" alt="" id="gif"> <span id="masterSongName">Aankhon Se Batana</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/aeaa7a0f45.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

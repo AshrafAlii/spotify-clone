@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,200&display=swap');
+
+body{
+    background-color:silver;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li{
+    padding:0 12px;
+
+}
+
+.brand img{
+    width: 48px;
+    padding: 0 7px;
+
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.container{
+    min-height: 76vh;
+    background-color: black;
+    color: white;
+    font-family: 'fira Sans',sans-serif;
+    background-image: url(bgg.jpeg);
+    display: flex;
+    margin: 8px auto;
+    width: 85%;
+    border-radius: 12px;
+    padding: 18px;
+}
+
+.bottom{
+    position: sticky;
+    height: 90px;
+    border-radius: 15px;
+    bottom: 0;
+    background-color:dimgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column; 
+
+}
+
+.icons{
+    margin-top: 12px;
+}
+.icons i{
+    cursor: pointer;
+}
+
+#progressbar{
+    width: 80vw;
+    cursor: pointer;
+}
+
+.songItemContainer{
+    margin-top: 60px;
+}
+
+.songItems{
+    height: 35px;
+    width: 130%;
+    display: flex;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.songItems img{
+    width: 40px;
+    margin: 0 30px;
+    border-radius: 34px;
+}
+
+.songinfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.songinfo img{
+   opacity: 0;
+   transition: opacity 0.5s ease-in;
+}
+.timestamp{
+    margin:0 25px;
+    padding: 30px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1100px){
+    body{
+        background-color: red;
+    };
+}
+
+.owner{
+    text-align: right;
+    font-weight: bolder;
+}
